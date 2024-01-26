@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navegación Personalizada</title>
+</head>
+<body>
+
+  <h1>Mi Sitio Web</h1>
+
+  <button onclick="irAtras()">Atrás</button>
+  <button onclick="irAdelante()">Adelante</button>
+
+  <script>
+    function irAtras() {
+      window.history.back();
+    }
+
+    function irAdelante() {
+      window.history.forward();
+    }
+  </script>
+
+</body>
+</html>
